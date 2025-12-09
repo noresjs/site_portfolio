@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6fb;
+    color: #333;
+}
+
+h1, h2 {
+    color: #2a5298;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #e3ecff;
+    border-bottom: 2px solid #c2d3ff;
+}
+
+/* Carte profil */
+.carte-profil {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 2px solid #c2d3ff;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.carte-profil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.conteneur {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.bloc {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border: 2px solid #c2d3ff;
+    border-radius: 12px;
+}
+
+/* Liste */
+.competences li:first-child {
+    font-weight: bold;
+}
+
+.competences li:last-child {
+    color: red;
+}
+
+.competences li:nth-child(2n) {
+    background: #e3ecff;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    padding: 0px;
+    font-size: 17px;
+    color: white;
+    background-color: #2a5298;
+    
+
+}
+.menu p:hover{
+    background-color: #e3ecff;
+    color: #57fcff;
+
+}
+
